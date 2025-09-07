@@ -1,0 +1,219 @@
+{
+  "Таск1": {
+    "user_request": "Я хочу побачити своїх конкурентів на ринку ресторанного бізнесу",
+    "history": [
+      {
+        "tips": [
+          {
+            "entities_of_interest": [
+              "company"
+            ],
+            "relation_types": [
+              "competitors"
+            ],
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          }
+        ]
+      },
+      {
+        "relations": [
+          {
+            "object1": "McDonald's",
+            "object2": "Burger King",
+            "relation_type": "competitors",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Петро",
+            "relation_type": "spouse",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Ігор",
+            "relation_type": "investor",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Марія",
+            "relation_type": "influence",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          },
+          {
+            "object1": "Затишок",
+            "object2": "Starbucks",
+            "relation_type": "competitors",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          },
+          {
+            "object1": "Затишок",
+            "object2": "Олександр",
+            "relation_type": "owner",
+            "polarity": "positive",
+            "keywords": [
+              "restaurants",
+              "market",
+              "competitors",
+              "analysis",
+              "business"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Я хочу побачити своїх конкурентів на ринку ресторанного бізнесу": {
+    "user_request": "Я хочу побачити своїх конкурентів на ринку ресторанного бізнесу",
+    "history": [
+      {
+        "tips": [
+          {
+            "entities_of_interest": [
+              "restaurant",
+              "business"
+            ],
+            "relation_types": [
+              "competition",
+              "market"
+            ],
+            "keywords": [
+              "restaurant",
+              "competition",
+              "market",
+              "analysis",
+              "business"
+            ]
+          }
+        ]
+      },
+      {
+        "relations": [
+          {
+            "object1": "McDonald's",
+            "object2": "Burger King",
+            "relation_type": "competition",
+            "polarity": "neutral",
+            "keywords": [
+              "restaurant",
+              "competition",
+              "market",
+              "business"
+            ]
+          },
+          {
+            "object1": "Затишок",
+            "object2": "Starbucks",
+            "relation_type": "competition",
+            "polarity": "neutral",
+            "keywords": [
+              "restaurant",
+              "competition",
+              "market",
+              "business"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Петро",
+            "relation_type": "cooperation",
+            "polarity": "neutral",
+            "keywords": [
+              "business",
+              "market",
+              "competition"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Ігор",
+            "relation_type": "cooperation",
+            "polarity": "neutral",
+            "keywords": [
+              "business",
+              "market",
+              "competition"
+            ]
+          },
+          {
+            "object1": "Зелений Світ",
+            "object2": "Марія",
+            "relation_type": "influence",
+            "polarity": "neutral",
+            "keywords": [
+              "business",
+              "market",
+              "competition"
+            ]
+          },
+          {
+            "object1": "restaurant",
+            "object2": "market",
+            "relation_type": "competition",
+            "polarity": "neutral",
+            "keywords": [
+              "restaurant",
+              "competition",
+              "market",
+              "business"
+            ]
+          },
+          {
+            "object1": "restaurant",
+            "object2": "business",
+            "relation_type": "market",
+            "polarity": "neutral",
+            "keywords": [
+              "restaurant",
+              "competition",
+              "market",
+              "business"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
